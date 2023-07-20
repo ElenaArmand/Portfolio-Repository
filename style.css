@@ -1,0 +1,38 @@
+
+
+.inlineBlock{
+    display: flex;
+    padding: 5px;
+   
+}
+
+header{
+    display: flex;
+    height: 60px;
+    background-color:#0A0A16;
+    padding-left: 204px;
+    padding-right: 204px;
+    align-items: flex-end;
+}
+
+#mainLogo {
+    position: absolute;
+    top: 0%;
+    left:50%;
+    right: 50%;
+    transform:translate(-50%,0%);
+   
+
+
+}
+
+.navigation{
+    display: flex;
+    width: 316px;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #DAE6FA;
+    font-family: 'Kotta-One', serif;
+
+  
+}
