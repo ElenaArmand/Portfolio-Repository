@@ -1,5 +1,6 @@
 
 
+
 .inlineBlock{
     display: flex;
     padding: 5px;
@@ -13,6 +14,7 @@ header{
     padding-left: 204px;
     padding-right: 204px;
     align-items: flex-end;
+
 }
 
 #mainLogo {
@@ -32,7 +34,52 @@ header{
     justify-content: space-between;
     align-items: flex-end;
     color: #DAE6FA;
-    font-family: 'Kotta-One', serif;
+    font-family: 'Kotta One', serif;
+    font-size: 14;
 
   
+}
+
+.heroImage {
+    display: flex;
+    height: 682px;
+    background-image: url(Images/TriplelightAIenhanced.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+   
+
+}
+
+.introText, .hello {
+    font-family: 'Electrolize', Arial, Helvetica, sans-serif;
+    color: #DAE6FA;
+    text-align: center;
+    width: 333px;
+    font-size: 16;
+    
+
+   
+}
+.hello{
+    padding-top: 250px;
+    font-size: 22;
+    text-shadow: 0px 0px 12px 0px #E79C48;
+}
+
+.introText{
+    padding-bottom: 100px;
+    text-shadow: 0px 0px 12px 0px #E79C48;
+}
+.arrow {
+   
+    background-color: transparent;
+  
+    
+    
+
 }
